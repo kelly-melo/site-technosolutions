@@ -1,0 +1,172 @@
+header {
+    display: block;
+    padding-block: 3%;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(right, #FFEEDD, #B8B8FF, #FFEEDD, #B8B8FF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    background-color: #F8F7FF;
+    }
+
+    .logo {
+        position: absolute;
+        width: 14%;
+        height: 25.4%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }  
+    body {
+        margin: 0px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #FFD8BE;
+        }
+    
+    li {
+        float: right;
+    }
+    
+    li a, .dropbtn {
+        font-family:'Poppins', sans-serif;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: #FFEEDD;
+    }
+    
+    li.dropdown{
+        display: inline-block;
+    }
+    
+    .dropdown-child {
+        display: none;
+        position: absolute;
+        background-color: yellow;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .formul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 40px;
+        background: linear-gradient(115deg, #B8B8FF 10%, #FFEEDD 90%);
+      }
+
+      .container {
+        font-family:'Poppins', sans-serif;
+        max-width: 800px;
+        background: #fff;
+        width: 800px;
+        padding: 25px 40px 10px 40px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+      }
+
+      .two {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        background: -webkit-linear-gradient(right, #FFEEDD, #B8B8FF, #FFEEDD, #B8B8FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+        
+        .one {
+            color: #494949;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        }
+    
+        button {
+            font-family:'Poppins', sans-serif;
+            color: #494949;
+            display: inline;
+            margin-top: 25px;
+            margin-left: 2px;
+            padding: 10px 20px 10px 20px;
+            border-radius: 4px;
+            background-color: #FFEEDD;
+    box-sizing: border-box;
+    border: 2px solid #B8B8FF;
+        }
+       
+        .three a:link {
+            color: #494949;
+         }
+    
+         .three a:visited {
+            color: #494949;
+         }
+    
+         .three a:hover {
+            color: #494949;
+         }
+         
+        .three a:active {
+                color: #494949;
+        }
+    
+        li a:hover{
+            background-color: #FFEEDD;
+                }
+        
+        footer {
+            font-family: 'Poppins', sans-serif;
+            color: #B8B8FF;
+            background-color: #F8F7FF;
+            text-align: center;
+            margin-bottom: 0px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            position: relative;
+            bottom:0;
+        }
+
+
+            .fa {
+                margin-top: 10px;
+                padding: 20px;
+                font-size: 20px;
+                width: 5px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+              }
+              
+              .fa:hover {
+                opacity: 0.7;
+              }
+              
+              .fa-facebook {
+                padding: 20px 30px 20px 23px;
+                border-radius: 50%;
+                background: #FFD8BE;
+                color: white;
+              }
+              
+              .fa-twitter {
+                padding: 21px 31px 21px 21px;
+                border-radius: 50%;
+                background: #FFD8BE;
+                color: white;
+              }
+
+              .fa-instagram {
+                padding: 20px 30px 20px 20px;
+                border-radius: 50%;
+                background: #FFD8BE;
+                color: white;
+              }
